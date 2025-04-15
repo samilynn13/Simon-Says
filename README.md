@@ -4,7 +4,7 @@ This is a simple Simon Says-like game built in the Godot Engine. The game featur
 - Three interactive colored buttons (e.g., Red, Green, Blue)
 - Buttons light and play sounds when activated
 - A random sequence generator that:
-  * Pciks random button presses
+  * Picks random button presses
   * Prevents any single button from repeating more than three times in a row
 - Player input system to validate the sequence
 - Basic UI system:
@@ -15,6 +15,6 @@ This is a simple Simon Says-like game built in the Godot Engine. The game featur
 1. Click Start to begin the game
 2. The game plays a random sequence of button lights and sounds
 3. Repeat the sequence by clicking the buttons in the correct order
-4. If incorrect, game is restarted to initial state
-5. If correct, score increases by one and the sequence grows longer each round
-6. Use the Restart button to reset the game at any time, or Quit to exit
+4. If you suceed, the score increases and the sequence grows by one
+5. If you make a mistake, the game ends and your score is shown
+6. Use Restart to reset the game at any time, or Quit to exit
